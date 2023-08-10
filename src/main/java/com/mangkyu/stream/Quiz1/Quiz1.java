@@ -12,6 +12,7 @@ public class Quiz1 {
     // 1.1 각 취미를 선호하는 인원이 몇 명인지 계산하여라.
     public Map<String, Integer> quiz1() throws IOException {
         List<String[]> csvLines = readCsvLines();
+        System.out.println("csvLines = " + csvLines);
         return new HashMap<>();
     }
 
